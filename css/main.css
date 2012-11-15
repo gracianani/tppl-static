@@ -176,21 +176,24 @@ a:hover,a:active {
 .hlb-sp1 {width:20%;}
 .hlb-sp2 {width:40%;}
 
+#highlight-box p {
+	margin-bottom: 0;
+}
 .hlb-type{color:#eabcaf;font-size: 10px;}
 .hlb-title{color:#FFF;font-size: 18px;text-transform: uppercase;padding-bottom: 5px;}
 .hlb-subtitle{color:#fff;font-size:14px;text-transform: uppercase;}
 .hlb-desc{color:#eabcaf;font-size: 12px;}
 
-.hlb-h2 .hlb-type{font-size: 12px;}
-.hlb-h2 .hlb-title{font-size: 40px;padding-bottom: 10px;}
-.hlb-h2 .hlb-subtitle{font-size:18px}
+.hlb-h2 .hlb-type{font-size: 12px;padding-bottom: 10px;}
+.hlb-h2 .hlb-title{font-size: 40px;padding-bottom: 20px;}
+.hlb-h2 .hlb-subtitle{font-size:18px;padding-bottom: 10px;}
 .hlb-h2 .hlb-desc{font-size: 14px;}
 
 
 
 .hlb-list>i,.hlb-app>i,.hlb-search>i {
 	position: absolute;
-	right:20px;
-	bottom: 20px;
+	right:15px;
+	bottom: 15px;
 	opacity: 0.6;
 }
